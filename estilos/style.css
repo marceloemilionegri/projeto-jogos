@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+:root {
+    --corpreto: #0D0D0D;
+    --corazulescuro: #012840;
+    --corazulmediobaixo: #024873;
+    --corazulmedioalto: #0367A6;
+    --corazulciano: #41D2F2;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}

@@ -15,6 +15,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: var(--fontepadrao);
 }
 
 body, html {
@@ -22,18 +23,20 @@ body, html {
 }
 
 header {
-    background-color: white;
     text-align: center;
     margin: 10px;
     padding: 10px;
     width: 92vw;
     height: 50vh;
-    box-shadow: 0px 0px 5px black;
+
     position: relative;
 }
 
 header > h1 {
-    font-family: var(--fontepadrao);
+    font-size: 50px;
+    color: var(--corazulciano);
+    text-shadow: 3px 0px 3px black;
+
     position: absolute;
     left: 50%;
     top: 50%;
@@ -42,4 +45,23 @@ header > h1 {
 
 nav {
     background-color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav > a  {
+    text-decoration: none;
+    margin: 70px;
+    background-image: linear-gradient(to right, var(--corpreto), var(--corazulmediobaixo));
+    color: var(--corazulciano);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav > a:hover {
+    border: 2px solid var(--corazulciano);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
 }

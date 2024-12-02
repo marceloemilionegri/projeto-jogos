@@ -20,54 +20,7 @@
 
 body, html {
     background-image: linear-gradient(to right, var(--corpreto), var(--corazulmedioalto));
+    width: 100vw;
+    height: 100vh;
 }
 
-header {
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-    width: 95vw;
-    height: 50vh;
-
-    position: relative;
-    background-image: url(../imagens/pexels-lulizler-3165335.jpg);
-    background-position: center;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-header > h1 { 
-    font-size: 100px;
-    color: var(--corazulciano);
-    text-shadow: 3px 0px 3px black;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-nav {
-    background-color: var(--corazulescuro);
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-nav > a  {
-    text-decoration: none;
-    margin: 70px;
-    background-image: linear-gradient(to right, var(--corpreto), var(--corazulmediobaixo));
-    color: var(--corazulciano);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-}
-
-nav > a:hover {
-    border: 2px solid var(--corazulciano);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
-    transition: transform .3s, border .3s;
-}

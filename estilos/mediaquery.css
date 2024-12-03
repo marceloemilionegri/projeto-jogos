@@ -7,19 +7,6 @@ Celular: de 600px até 768px
 Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
-
-    font-size: 70px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 20px;
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    background: url(../imagens/pexels-stasknop-1579240.jpg);
-    background-size: cover;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {

@@ -29,7 +29,7 @@ body, html {
 header {
     background-color: black;
     position: relative;
-    width: 96.5vw;
+    width: 97vw;
     height: 50vh;
 }
 
@@ -115,9 +115,33 @@ article > p {
 }
 
 aside {
+    text-align: center;
     padding: 10px;
     background-color: var(--corazulescuro);
+    font-size: 1.1em;
+}
+
+aside > a {
     font-size: 1.5em;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: var(--corazulciano);
+    text-shadow: 0 0 10px var(--corazulciano);
+    transform: 0.5s;
+    text-decoration: none;
+}
+
+aside#nota {
+    text-align: center;
+}
+
+aside#nota > p {
+    font-size: 1.5em;
+    padding: 3px;
+    color: var(--corazulciano);
+    text-shadow: 0 0 10px var(--corazulciano);
+    transition: 0.5s;
+    text-decoration: none;
 }
 
 footer {

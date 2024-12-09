@@ -23,24 +23,25 @@
 
 body, html {
     background-image: linear-gradient(to right, var(--corazulescuro), var(--corazulmedioalto));
-    width: 100vw;
-    height: 100vh;
+    
 }
 
 header {
     background-color: black;
     position: relative;
-    width: 100vw;
-    height: 35vh;
+    width: 96.5vw;
+    height: 50vh;
 }
 
 header > h1 {
     padding: 10px;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.671);
     color: var(--corazulmediobaixo);
     font-family: var(--fontepixelada);
-    font-size: 70px;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,10 +90,14 @@ article {
 article a {
     color: black;
     text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 3px;
 }
 
 article a:hover {
-    background-color: rgba(0, 0, 0, 0.267);
+    padding: 3px;
+    color: var(--corazulciano);
+    text-shadow: 0 0 10px var(--corazulciano);
     transition: 0.5s;
 }
 
@@ -110,11 +115,20 @@ article > p {
 }
 
 aside {
-    background-color: #012840;
+    padding: 10px;
+    background-color: var(--corazulescuro);
+    font-size: 1.5em;
 }
 
 footer {
     color: white;
     background-color: var(--corazulmedioalto);
-    
+    margin: 10px;
+}
+
+footer a {
+    padding: 0.5px;
+    color: var(--corazulciano);
+    text-shadow: 0 0 10px var(--corazulciano);
+    text-decoration: none;
 }

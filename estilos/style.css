@@ -27,11 +27,6 @@ body, html {
     height: 100vh;
 }
 
-main {
-    width: 100vw;
-    height: 65vh;
-}
-
 header {
     background-color: black;
     position: relative;
@@ -65,6 +60,18 @@ header#foto01 {
     background: black url(../imagens/pexels-lulizler-3165335.jpg) top center no-repeat;
     box-sizing: border-box;
     border: solid black 10px;
+}
+
+header#introducao06 {
+    padding: 1px;
+    background: black url(../imagens/monster-hunter-world-game-capcom-monster-hunter.jpg) center center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid black 10px;
+}
+
+header#introducao06 > h1 {
+    font-size: 40px;
 }
 
 nav {
@@ -118,6 +125,14 @@ article > p {
     padding: 10px;
     margin: 10px;
     font-size: 1.2em;
+}
+
+article.imagem06 {
+    color: white;
+    padding: 1px;
+    background: black url(../imagens/pexels-lulizler-3165335.jpg) top center no-repeat;
+    box-sizing: border-box;
+    border: solid black 10px;
 }
 
 aside {

@@ -23,13 +23,19 @@
 
 body, html {
     background-image: linear-gradient(to right, var(--corazulescuro), var(--corazulmedioalto));
-    
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 65vh;
 }
 
 header {
     background-color: black;
     position: relative;
-    width: 97vw;
+    width: 100vw;
     height: 50vh;
 }
 

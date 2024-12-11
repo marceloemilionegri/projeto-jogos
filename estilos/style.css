@@ -34,6 +34,15 @@ header {
     height: 50vh;
 }
 
+header#foto01 > img {
+    width: 100vw;
+    height: 50vh;
+    padding: 1px;
+    background: black top center no-repeat;
+    box-sizing: border-box;
+    border: solid black 10px;
+}
+
 header > h1 {
     padding: 10px;
     margin: 10px;
@@ -53,25 +62,6 @@ header h1:hover {
     color: var(--corazulciano);
     text-shadow: 0 0 10px var(--corazulciano);
     transition: 0.5s;
-}
-
-header#foto01 {
-    padding: 1px;
-    background: black url(../imagens/pexels-lulizler-3165335.jpg) top center no-repeat;
-    box-sizing: border-box;
-    border: solid black 10px;
-}
-
-header#introducao06 {
-    padding: 1px;
-    background: black url(../imagens/monster-hunter-world-game-capcom-monster-hunter.jpg) center center no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    border: solid black 10px;
-}
-
-header#introducao06 > h1 {
-    font-size: 40px;
 }
 
 nav {
@@ -127,12 +117,37 @@ article > p {
     font-size: 1.2em;
 }
 
-article.imagem06 {
-    color: white;
+header#introducao > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 40vh;
     padding: 1px;
-    background: black url(../imagens/pexels-lulizler-3165335.jpg) top center no-repeat;
+    background: black top center no-repeat;
     box-sizing: border-box;
     border: solid black 10px;
+}
+
+article.imagem1 {
+    background-color: black;
+    color: var(--corazulciano);
+    text-shadow: 0 0 10px var(--corazulciano);
+    box-shadow: 0px 0px 5px black;
+}
+
+article.imagem1 > img {
+    width: 100%;
+    height: 40vh;
+    padding: 1px;
+    background: black top center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+article.semimagem > h2 {
+    background-color: rgba(0, 0, 0, 0.295);
 }
 
 aside {
